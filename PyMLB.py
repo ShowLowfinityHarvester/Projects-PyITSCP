@@ -2,10 +2,6 @@
 
 import datetime
 x = datetime.datetime.now()
-today = datetime.date.today()
-print(x)
-print(today)
-print(x.strftime("%X"))
-print(x.strftime("%m"))
-print(x.strftime("%d"))
-print(x.strftime("%Y"))
+m = int(x.strftime("%m"))
+d = int(x.strftime("%d"))
+print(f"It has been {m} months and {d} days since your New Years resolution. How are you doing?")
