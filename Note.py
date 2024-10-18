@@ -35,3 +35,6 @@ location = "Albuquerque, New Mexico"
 print("My name is " + name + " and I have "+ str(dogs) + " dogs and live in "+ location) # + approach
 print(f"My name is {name} and I have {dogs} dogs and live in {location}") # F string approach
 print("My name is", name, "and I have", dogs , "dogs and live in", location) # Comma approach
+
+# Error handling
+
