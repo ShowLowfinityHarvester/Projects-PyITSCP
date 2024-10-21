@@ -38,3 +38,13 @@ print("My name is", name, "and I have", dogs , "dogs and live in", location) # C
 
 # Error handling
 
+friend = "Taj"
+
+try:
+  print(brother)
+except:
+  print("A problem occurred") 
+else:
+  print("The code worked without a problem")
+finally:
+  print("Error handling is complete")
