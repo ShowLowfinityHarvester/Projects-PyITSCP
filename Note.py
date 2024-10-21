@@ -38,13 +38,16 @@ print("My name is", name, "and I have", dogs , "dogs and live in", location) # C
 
 # Error handling
 
-friend = "Taj"
+Sunflower = int(input("# of sunflowers -> "))
 
 try:
-  print(brother)
+    print(Sunflower * 300)
 except:
-  print("A problem occurred") 
+    print("There is a problem")
 else:
-  print("The code worked without a problem")
+    print("There is no problem")
 finally:
-  print("Error handling is complete")
+    print("Your exception handling is complete")
+
+# OS Path 
+print("Read and completed")
