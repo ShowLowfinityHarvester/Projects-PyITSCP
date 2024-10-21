@@ -1,12 +1,11 @@
 # These are school projects! Github page may be all cluttered until 2025 or 2026.
 
-Pizza = int(input("# of pizza slices -> "))
-People = int(input("# of People -> "))
+Sunflower = int(input("# of sunflowers -> "))
 
 try:
-    print(Pizza / People)
+    print(Sunflower * 300)
 except:
-    print("Your code doesn't account for if a user tries to enter 0 people")
+    print("There is a problem")
 else:
     print("There is no problem")
 finally:
